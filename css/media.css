@@ -1,0 +1,139 @@
+@media (max-width: 1525px) {
+  .hero .container .right {
+    display: none;
+  }
+
+  .section .container .cart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section .container .up p {
+    color: white;
+  }
+
+  .order .container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .order .container .right h1 {
+    text-align: center;
+  }
+
+  .order .container .right p {
+    text-align: center;
+  }
+
+  .order2AHAHA .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 1025px) {
+  .header .navbar .cart .im1 {
+    display: none;
+  }
+
+  .header .navbar .cart .btn {
+    display: none;
+  }
+
+  .header .navbar .container .menu .icons i {
+    display: block;
+  }
+
+  .header .navbar .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .navbar .container .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header .hero .container .left .subtitle {
+    width: 400px;
+  }
+
+
+  /* 975px */
+  @media (max-width: 975px) {
+    .order .container .left img {
+      display: none;
+    }
+
+    .order2AHAHA .container .right img {
+      display: none;
+    }
+
+    .header .hero .container {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+  }
+
+  /* 770px */
+  @media (max-width: 770px) {
+    .header .navbar .container {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .header .navbar .container .logo {
+      margin: 0 auto;
+    }
+
+    .header .navbar .container .menu {
+      display: none;
+    }
+
+    .header .hero .container .left .title {
+      display: none;
+    }
+
+
+
+
+  }
+
+  /* 525px */
+  @media (max-width: 525px) {
+    .header .hero .container .left .subtitle {
+      width: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+}
+
+/* 430px */
+@media (max-width: 430px) {
+  .header .hero .container .left .subtitle {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .hero .container .left .btn {
+    display: none;
+  }
+  body {
+    text-align: center;x
+  }
+}
+
+/* 375px */
+@media (max-width: 295px) {
+
+}
